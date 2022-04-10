@@ -1,0 +1,307 @@
+.buttonMessageCss {
+    font-size: 18px;
+    background-color: #D9D9D9;
+    border-radius: 19px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    opacity: 0.6;
+}
+
+.PersonFound {
+    font-size: 16px;
+}
+
+.empty_field {
+    opacity: 0;
+}
+
+.name_field_Profile {
+    color: #C4C4C4;
+}
+.client
+{
+    color: red;
+}
+.console
+{
+    color: wheat;
+}
+.searchedPeopleField {
+    background-image: url("../../resources/fields_in_chat/SearchedPeopleField.png");
+    background-size: cover;
+}
+.search_name_clicked {
+    background: none;
+    font-size: 21;
+    opacity: 0.3;
+    color: white;
+    border: 2px solid #D9D9D9;
+}
+
+.messageFieldChatMain {
+    font-size: 18;
+}
+
+.settingsButtonField, .photo_and_login_Field {
+    background-image: url("../../resources/fields_in_chat/settingsField.png");
+    background-size: cover;
+    border-radius: 34px;
+}
+
+.deanonMeButton {
+    background-image: url("../../resources/buttons/deanonMeButton.png");
+    background-size:cover;
+    border-radius: 34px;
+}
+
+.logoutBtn {
+    background-image: url("../../resources/buttons/logoutBtn.png");
+    background-size:cover;
+}
+
+
+.users_login {
+    font-size: 21px;
+}
+
+.backBtnSettings {
+    background-image: url("../../resources/buttons/settings_back_button.png");
+    background-size: cover;
+}
+
+.donateField {
+    background-image: url("../../resources/fields_in_chat/donateField.png");
+    background-size: cover;
+}
+
+.editProfileField {
+    background-image: url("../../resources/fields_in_chat/editProfileField.png");
+    background-size: cover;
+}
+
+.faqField {
+    background-image: url("../../resources/fields_in_chat/faqField.png");
+    background-size: cover;
+}
+
+.deanonField {
+    background-image: url("../../resources/fields_in_chat/deanonFIeld.png");
+    background-size: cover;
+}
+.deanonGraph {
+    background-color:  #C4C4C4;
+    opacity:  0.3;
+    color: black;
+    font-size: large;
+    border-radius: 15px;
+}
+
+.emptyFieldChat {
+    opacity: 0;
+}
+
+.peregorodka {
+    background-image: url("../../resources/buttons/peregorodka.png");
+    background-size: cover;
+    border-radius: 3px;
+    border: 0px solid black;
+    opacity: 0;
+}
+
+.users_photo {
+    background-image: url("../../resources/Ico/Ebalo11.png");
+    background-size: cover;
+}
+
+.editProfleBtn {
+    background-image: url("../../resources/buttons/editProfileBtn.png");
+    background-size: cover;
+    
+}
+
+.notificationsBtn {
+    background-image: url("../../resources/buttons/notificationsBtn.png");
+    background-size: cover;
+    
+}
+
+.deanonBtn {
+    background-image: url("../../resources/buttons/deanonBtn.png");
+    background-size: cover;
+   
+}
+
+.languageBtn {
+    background-image: url("../../resources/buttons/languageBtn.png");
+    background-size: cover;
+    
+}
+
+.faqBtn {
+    background-image: url("../../resources/buttons/faqBtn.png");
+    background-size: cover;
+    
+}
+
+.donateBtn {
+    background-image: url("../../resources/buttons/donateBtn.png");
+    background-size: cover;
+}
+
+.advancSettingsBtn {
+    background-image: url("../../resources/buttons/advancedSettingsBtn.png");
+    background-size: cover;
+    
+}
+
+.chatSettingBtn {
+    background-image: url("../../resources/buttons/chatsettingsBtn.png");
+    background-size: cover;
+}
+
+.foldersBtn {
+    background-image: url("../../resources/buttons/foldersBtn.png");
+    background-size: cover;
+}
+
+.backBtnDonate {
+    background-image: url("../../resources/buttons/settings_back_button.png");
+    background-size: cover;
+    /*background-size: 90%, 80%;*/
+}
+
+.button_to_login { 
+    background: whitesmoke;
+    border-radius: 100%;
+    opacity: 0.1;
+    box-shadow: 0 0 0.1px 0 black;
+    transition: box-shadow 0.1s easy-in-out;
+}
+
+
+.button_to_login:hover {
+    box-shadow: 0 5px 15px 0 black;
+}
+
+.button_to_login::after {
+  box-shadow: 0 5px 15px black;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.btn_to_register {
+    box-shadow: 0 0 0 0 black;
+    background-image: url("../../resources/buttons/register_button.png");
+    background-size: cover;
+    opacity: 0.5;
+    border-style: none;
+}
+
+.btn_to_register:hover {
+    opacity: 1;
+}
+
+.loginEntry, .passwordEntryLogin {
+    background-color: black;
+    color: white;
+    font-size: large;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+.searchBar, .messageBar, .emOtpravkaBar {
+    background-color:  #C4C4C4;
+    opacity:  0.3;
+    color: black;
+    font-size: large;
+    border-radius: 15px;
+}
+  
+.signinBtn, .signupBtn {
+    background-size: cover;
+    opacity: 0.3;
+    border-radius: 34px;
+    border: 1px solid white;
+    
+}
+
+.signinBtn {
+    background-image: url("../../resources/buttons/sign_in_button.png");
+}
+
+.signupBtn {
+    background-image: url("../../resources/buttons/sign_up_button.png");
+}
+
+.signupBtn:hover, .signinBtn:hover {
+    opacity: 0.8;
+    box-shadow: 0 0 10px 0 white;
+}
+
+.err_msg_login_exists {
+    font-size: 16px;
+    color: rgb(173, 29, 29);
+}
+
+.pass_dont_match {
+    font-size: 12px;
+    color: rgb(173, 29, 29);
+}
+
+.backButton {
+    border-radius: 100%;
+    background-image: url("../../resources/buttons/back_button.png");
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.backButton:hover {
+    opacity: 1;
+}
+
+.settingsBtn {
+    background-image: url("../../resources/buttons/settings_icon2.png");
+    background-size: cover;
+    opacity: 0.3;
+}
+
+.backButton:hover {
+    opacity: 0.6;
+}
+
+.tri_tochki_btn {
+    background-image: url("../../resources/buttons/3_dots.png");
+    background-size: cover;
+    opacity: 0.3;
+}
+
+.trubka_button {
+    background-image: url("../../resources/buttons/trubka.png");
+    background-size: cover;
+    opacity: 0.3;
+}
+
+.abcd_btn {
+    background-image: url("../../resources/buttons/lupa_poisk.png");
+    background-size: cover;
+    opacity: 0.3;
+}
+
+.emojiiBtn {
+    background-image: url("../../resources/buttons/emoji_button.png");
+    opacity: 0.5;
+    background-size: cover;
+    
+}
+
+.otpravkaBtn {
+    background-image: url("../../resources/buttons/send_btn.png");
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.changePasswordButton {
+    background-image: url("../../resources/buttons/changePasswordButton.png");
+    background-size:cover;
+    border-radius: 34px;
+}
+
